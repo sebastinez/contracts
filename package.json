@@ -1,0 +1,23 @@
+{
+  "name": "contracts",
+  "version": "1.0.0",
+  "description": "A collection of contracts I came up with",
+  "main": "index.js",
+  "repository": "https://github.com/sebastinez/contracts.git",
+  "author": "sebastinez",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "format": "prettier -w ."
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "2.0.0",
+    "@nomiclabs/hardhat-waffle": "2.0.0",
+    "@openzeppelin/contracts": "^3.2.0",
+    "chai": "4.2.0",
+    "ethereum-waffle": "3.0.0",
+    "ethers": "5.0.0",
+    "hardhat": "2.0.3",
+    "prettier": "^2.1.2"
+  }
+}
